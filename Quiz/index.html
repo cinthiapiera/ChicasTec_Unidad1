@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz de Salud</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <h3 class="pregunta_nombre">Quiz de salud</h3>
+            <div class="pregunta_contenido">
+                <!-- este es mi enunciado -->
+                <p class="pregunta_enunciado" id="pregunta">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio molestias nemo, delectus nulla commodi repudiandae laboriosam harum sunt architecto facilis obcaecati deleniti fugiat dolorum quia inventore doloremque. Laborum, consectetur nostrum?</p>
+                <div class="pregunta_alternativas">
+                    <button id="op1">Opción 1</button>
+                    <button id="op2">Opción 2</button>
+                    <button id="op3">Opción 3</button>
+                    <button id="op4">Opción 4</button>
+                    <button id="op5">Opción 5</button>
+                </div>
+            </div>
+        </div>
+        <div class="avance">
+            <progress id="barra_progreso" max="100" value="10"></progress>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

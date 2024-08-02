@@ -1,0 +1,58 @@
+--- PREGUNTAS ---
+¿Con qué frecuencia realizas deporte? Considera como deporte cualquier actividad que acelere tu ritmo cardiaco, como caminar rápido, andar en bicicleta, bailar o, por supuesto, practicar un deporte.
+- 3 ó más veces por semana (5 puntos)
+- Entre 1 y 2 veces a la semana (4 puntos)
+- Al menos 4 veces al mes (3 puntos)
+- 2 a 3 veces al mes (1 punto)
+- 1 vez al mes ó menos (0 puntos)
+
+¿Cuántos vasos de agua (200mL) bebes al día? No consideres la ingesta de otros líquidos, como gaseosas, jugos azucarados o alcohol.
+- Al menos 8 vasos al día (5 puntos)
+- Entre 5 y 8, depende del día (4 puntos)
+- Cuando me acuerdo (2 puntos)
+- Solo si tengo sed (1 punto)
+- No me gusta el agua, prefiero la gaseosa (0 puntos)
+
+¿Cuántas porciones de frutas y verduras consumes diariamente?
+- 5 ó más (5 puntos)
+- 2 a 4 (4 puntos)
+- Al menos 1 vez al día (3 puntos)
+- Depende del día (1 punto)
+- Solo si me obligan (0 puntos)
+
+¿Cuándo fue la última vez que fuiste al médico y/o te realizaste un chequeo general? No consideres visitas por situaciones muy específicas en las que no se revisó tu estado general de salud ni siquiera de manera visual, como por ejemplo en caso de una lesión.
+- Hace menos de un mes (5 puntos)
+- Entre 1 y 3 meses atrás (4 puntos)
+- Estoy segura que fui al menos una vez en los últimos 12 meses (3 puntos)
+- Solo voy si hay algún hueso expuesto (1 punto)
+- Nunca me enfermo, no necesito ir al médico (0 puntos)
+
+Piensa en lo que sueles comer día a día. ¿Qué tipo de alimentos es el más frecuente en tu dieta?
+- Harinas y cereales (1 punto)
+- Proteína de origen animal (carnes rojas, blancas o pescado) (4 puntos)
+- Aceites y grasas (0 puntos)
+- Ensaladas de verduras y/o frutas (3 puntos)
+- Proteínas de origen vegetal (legumbres) (5 puntos)
+
+¿Existen antecedentes de enfermedades crónicas en tu familia?.<br>Se considera como enfermedad crónica aquella que dura 3 ó más meses y que, posiblemente, empeore con el tiempo. Ejemplos: cáncer, diabetes, hipertensión, cardiopatías, accidentes cerebrovasculares.
+- Sí, ambos padres padecen enfermedades crónicas (1 punto)
+- Sí, uno de mis padres padece de una o más enfermedades crónicas (2 puntos)
+- Sí, al menos uno de mis hermanos (2 puntos)
+- Sí, pero es un tío y/o abuelo (3 puntos)
+- No que yo sepa (5 puntos)
+
+En general, consideras que tu salud es:
+- Excelente, no recuerdo la última vez que tuve un resfrío (5 puntos)
+- Buena, no suelo enfermarme más de una vez al año y es de manera leve (4 puntos)
+- Buena, tengo alguna(s) enfermedad(es) crónica(s) pero está(n) controlada(s) (4 puntos)
+- Regular, me refrío siempre y/o tengo descompensaciones ocasionales de enfermedades crónicas (2 puntos)
+- Mala, paso resfriada, con crisis de enfermedades crónicas y/o lesionada (0 puntos)
+
+
+--- RESULTADOS ---
+Estilo de vida:
+puntaje > 30 --> EXCELENTE
+puntaje <= 30 --> BUENO
+puntaje <= 25 --> ACEPTABLE
+puntaje <= 20 --> REGULAR
+puntaje <= 10 --> MALO

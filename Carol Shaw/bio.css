@@ -1,0 +1,36 @@
+body{
+    margin: 30px;
+}
+
+h2{
+    margin-bottom: 3px;
+}
+
+hr{
+    margin: 0;
+}
+
+.biografia{
+    width: 80%;
+    display: inline-block;
+}
+
+.infobox{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.tabla{
+    border: 2px solid #B4BBC8;
+    background-color: #f9f9f9;
+}
+
+.tabla thead th{
+    background-color: #ED8;
+    padding: 15px;
+    font-size: 24px;
+}
+
+.tabla tbody td{
+    text-align: center;
+}

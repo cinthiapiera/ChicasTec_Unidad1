@@ -1,0 +1,22 @@
+/* Estilos para el título principal */
+h1 {
+    color: red;
+    background-color: pink;
+}
+
+/* Estilos para el primer párrafo */
+.primer-parrafo {
+    color: blue;
+}
+
+/* Estilos para el segundo párrafo */
+.segundo-parrafo {
+    color: green;
+}
+
+/* Estilos para el título secundario */
+#titulo-secundario {
+    color: violet;
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

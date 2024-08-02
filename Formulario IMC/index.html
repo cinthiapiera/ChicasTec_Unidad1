@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Salud</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>Formulario de Salud</h1>
+    <div class="main">
+        <form>
+            <div class="campo">
+                <label for="nombre">Nombre:</label>
+                <input type="text" name="nombre" id="nombre" placeholder="Ingresa tu primer nombre">
+            </div>
+            <div class="campo">
+                <label for="apellido">Apellido</label>
+                <input type="text" name="apellido" id="apellido" placeholder="Ingresa tu primer apellido">
+            </div>
+            <div class="campo">
+                <label for="email">Correo electronico</label>
+                <input type="email" name="email" id="email" placeholder="Ingredsa tu correo electronico">
+            </div>
+            <div class="campo">
+                <label for="tel">Teléfono</label>
+                <input type="tel" id="tel" name="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}">
+            </div>
+            <div class="campo">
+                <label for="fecha-nacimiento">Fecha de nacimiento: </label>
+                <input type="date" name="fechaNacimiento" id="fecha-nacimiento">
+            </div>
+            <div class="campo">
+                <p>Sexo</p>
+                <input type="radio" name="sexo" id="femenino" value="femenino">
+                <label for="femenino">Femenino</label>
+                <input type="radio" name="sexo" id="masculino" value="masculino">
+                <label for="masculino">Masculino</label>
+            </div>
+            <div class="campo">
+                <label for="estatura">Estatura: </label>
+                <input class="w-50" type="number" name="estatura" id="estatura" step="any"> metros
+            </div>
+            <div class="campo">
+                <label for="peso">Peso: </label>
+                <input class="w-50" type="number" name="peso" id="peso" step="any" min="0" max="200"> kg
+            </div>
+            <div class="campo">
+                <input type="checkbox" id="deporte" name="deporte">
+                <label for="deporte">Realizo deporte regularmente.</label>
+            </div>
+            <div class="campo">
+                <button type="button" id="enviar" onclick="datos()">Enviar</button>
+            </div>
+        </form>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>

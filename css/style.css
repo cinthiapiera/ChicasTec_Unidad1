@@ -1,0 +1,23 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.tab {
+    padding-left: 4rem;
+}
+
+.campo {
+    outline: 1px solid red;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.w-50 {
+    width: 50px;
+}
+
+.main {
+    margin: 40px;
+    border: 1px dashed gray;
+    padding-left: 15px;
+}

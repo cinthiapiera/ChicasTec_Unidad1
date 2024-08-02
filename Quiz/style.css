@@ -1,0 +1,89 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #C8E0D5;
+}
+
+.container{
+    background-color: #E9f7f5;
+    margin: 100px auto 0 auto;
+    width: 500px;
+    height: 500px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.pregunta_nombre, .resultado_titulo{
+    text-align: center;
+    font-size: 25px;
+}
+
+.pregunta_contenido{
+    padding: 15px;
+}
+
+.pregunta_enunciado{
+    text-align: justify;
+    height: 100px;
+}
+
+.pregunta_alternativas{
+    height: 200px;
+    line-height: 18px;
+}
+
+.pregunta_alternativas button{
+    display: block;
+    font-size: 16px;
+    margin: 5px auto;
+    width: 300px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(107, 212, 163);
+}
+
+.pregunta_alternativas button:hover{
+    background-color: rgb(75, 133, 105);
+}
+
+.avance{
+    vertical-align: bottom;
+}
+
+.card{
+    height: 450px;
+}
+
+#barra_progreso{
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* accent-color: blue; */
+}
+
+#estilo-excelente{
+    color: green;
+    outline: green solid 2px;
+}
+
+#estilo-bueno{
+    color: yellowgreen;
+    outline: yellowgreen solid 2px;
+}
+
+#estilo-aceptable{
+    color: yellow;
+    outline: yellow solid 2px;
+}
+
+#estilo-regular{
+    color: orangered;
+    outline: orangered solid 2px;
+}
+
+#estilo-malo{
+    color: red;
+    outline: red solid 2px;
+}

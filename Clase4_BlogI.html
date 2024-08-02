@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nota Informativa sobre HTML</title>
+</head>
+<body>
+    <!-- Encabezado de la página -->
+    <header>
+        <h1>Nota Informativa sobre HTML</h1>
+        <figure>
+            <img src="Recursos/HTML5_logo_and_wordmark.svg.png" alt="logo html" width="50" height="50"/>
+        </figure>
+    </header>
+
+    <!-- Contenido principal de la página -->
+    <main>
+        <!-- Artículo sobre HTML -->
+        <article>
+            <section>
+                <h2>¿Qué es HTML?</h2>
+                <p>HTML, que significa <strong>HyperText Markup Language</strong>, es el estándar para la creación de páginas web. Fue desarrollado por primera vez por Tim Berners-Lee en 1991.</p>
+
+                <!-- Video embebido con controles -->
+                <video width="250" height="150" controls>
+                    <source src="Recursos/Video.mp4" type="video/mp4">
+                    Tu navegador no soporta la etiqueta de video.
+                </video>
+
+                <p>Este video proporciona una visión general de las nuevas características de HTML5.</p>
+            </section>
+
+            <section>
+                <h2>¿Por qué es importante HTML?</h2>
+                <p>HTML es fundamental porque estructura y da formato a los contenidos de la web. Utiliza <span style="color: blue; font-weight: bold;">etiquetas</span> para definir elementos como encabezados, párrafos, listas, enlaces, imágenes y mucho más.</p>
+
+                <!-- Audio embebido con controles -->
+                <audio controls>
+                    <source src="Recursos/Sonido.mp3" type="audio/mp3">
+                    Tu navegador no soporta la etiqueta de audio.
+                </audio>
+                <p>Escucha nuestro podcast sobre HTML.</p>
+            </section>
+
+            <section>
+                <h2><mark>Etiquetas comunes en HTML</mark></h2>
+                <!-- Tabla -->
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Etiqueta</th>
+                            <th>Descripción</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><code>p</code></td>
+                            <td>Define un párrafo de texto.</td>
+                        </tr>
+                        <tr>
+                            <td><code>h1-h6</code></td>
+                            <td>Define encabezados de diferentes niveles.</td>
+                        </tr>
+                        <tr>
+                            <td><code>a</code></td>
+                            <td>Define un enlace o hipervínculo.</td>
+                        </tr>
+                        <tr>
+                            <td><code>ul</code> y <code>li</code></td>
+                            <td>Define listas desordenadas y sus elementos.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <!-- Sección con detalles adicionales -->
+            <section>
+                <details>
+                    <summary>Más información sobre HTML5</summary>
+                    <p>HTML5 incluye nuevas características, mejoras y un mejor soporte para multimedia como audio y vídeo. También introduce nuevos elementos semánticos que mejoran la estructura del documento.</p>
+                    <ul>
+                        <li>Etiquetas semánticas como <code>&lt;article&gt;</code>, <code>&lt;section&gt;</code>, <code>&lt;header&gt;</code>, y <code>&lt;footer&gt;</code>.</li>
+                        <li>Soporte nativo para audio y vídeo con <code>&lt;audio&gt;</code> y <code>&lt;video&gt;</code>.</li>
+                        <li>Mejora del manejo de formularios con nuevos tipos de entrada.</li>
+                    </ul>
+                </details>
+            </section>
+        </article>
+    </main>
+
+    <!-- Información adicional -->
+    <aside>
+        <h3>Dato Curioso</h3>
+        <p>¿Sabías que la primera versión de HTML solo tenía <span style="color: red;">18 etiquetas</span>?</p>
+        <iframe width="250" height="150" src="https://www.youtube.com/embed/10GHKjgQIR0?si=TX_a6rAVMnFX0Qyx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </aside>
+
+    <!-- Pie de página -->
+    <footer>
+        <!-- fecha y hora -->
+        <p>Última actualización: <time datetime="2024-06-28T15:30">28 de junio de 2024, 15:30</time></p>
+        <p>Contacto: <a href="mailto:info@example.com">info@example.com</a></p>
+    </footer>
+
+</body>
+</html>

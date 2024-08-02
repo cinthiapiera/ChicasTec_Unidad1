@@ -1,0 +1,34 @@
+/* Estilos para la caja de canciones */
+.caja-canciones {
+    background-color: lightpink; 
+    width: 500px; /* Ancho del contenedor */
+    height: 200px; /* Altura del contenedor */
+    border-top: 3px dashed yellow; /* Borde superior punteado de color amarillo */
+    border-right: 3px dotted blue; /* Borde derecho punteado de color azul */
+    border-bottom: 3px double red; /* Borde inferior doble de color rojo */
+    border-left: 3px solid green; /* Borde izquierdo sólido de color verde */
+}
+
+/* Estilos para la primera caja con margen */
+.caja_1 {
+    border: 2px solid black; 
+    background-color: lightblue;
+    margin-top: 100px; /* Margen superior de 100px */
+    margin-right: 150px; /* Margen derecho de 150px */
+    margin-bottom: 80px; /* Margen inferior de 80px */
+    margin-left: 150px; /* Margen izquierdo de 150px */
+    /* Forma abreviada de definir los márgenes:
+       margin: 100px 150px 80px 150px; */
+}
+
+/* Estilos para la segunda caja con padding */
+.caja_2 {
+    border: 2px double red;
+    background-color: lightcoral;
+    padding-top: 15px; /* Padding superior de 15px */
+    padding-right: 15px; /* Padding derecho de 15px */
+    padding-bottom: 15px; /* Padding inferior de 15px */
+    padding-left: 15px; /* Padding izquierdo de 15px */
+    /* Forma abreviada de definir el padding uniforme de 15px en todas las direcciones:
+       padding: 15px; */
+}
